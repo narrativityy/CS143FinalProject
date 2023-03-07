@@ -38,6 +38,7 @@ public class ContactManager {
 		}
 	}
 
+	// reads file and adds contacts to the contactList
 	public void readFile() throws FileNotFoundException {
 		this.contactList.addAll(FileHandler.printFile());
 	}
